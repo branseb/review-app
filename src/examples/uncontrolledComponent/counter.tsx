@@ -7,7 +7,7 @@ export const Counter = () => {
     }
 
     return(
-        <div style={{border:'1px black solid', width:170 , display:'flex', justifyContent:'space-between'}}>
+        <div style={{border: '1px red solid', gap: 30, height: '50px', alignItems: 'center', padding: 15, display: 'flex', justifyContent: 'space-between' }}>
             Uncontrolled: {counter}
             <button onClick={buttonClick}>Click</button>
         </div>
